@@ -28,6 +28,6 @@ function doWhileLoop(array) {
     array.pop();
     console.log(array.length);
   }
-  while (array.length >= 0);
+  while (array.length > 0);
   return array;
 }
